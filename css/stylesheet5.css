@@ -1,0 +1,177 @@
+/* Spotlight on General Information! (Page 5) CSS Stuff */
+nav ul
+{
+	background-color:#faa94a;
+}
+
+#p5_title
+{
+	width:500px;
+	position:absolute;
+	left:100px;
+	top:90px;
+}
+
+	#p5_title_text
+	{
+		position:absolute;
+		width:500px;
+		font-size:30px;
+		top:-20px;
+		left:5px;
+		z-index:1;
+	}
+	
+	#p5_title_background
+	{
+		position:absolute;
+		width:570px;
+	}
+
+#p5_paragraph1
+{
+	position:absolute;
+	top:50px;
+	left:930px;
+}
+	#p5_paragraph1_background
+	{
+		width:320px;
+		position:absolute;
+	}
+
+	#p5_paragraph1_text
+	{
+		position:absolute;
+		width:220px;
+		top:50px;
+		left:45px;
+		text-align:center;
+		z-index:1;
+	}
+	
+#p5_tip1
+{
+	width:800px;
+	position:absolute;
+	left:50px;
+	top:210px;
+}
+
+	#p5_tip1_background
+	{
+		width:800px;
+		position:absolute;
+		top:0px;
+		z-index:-1;
+	}
+
+	#p5_owl
+	{
+		width:320px;
+		position:absolute;
+		top:50px;
+		left:30px;
+	}
+	
+	#p5_tip1_heading
+	{
+		position:absolute;
+		top:0px;
+		left:80px;
+	}
+	
+	#p5_tip1_text
+	{
+		width:300px;
+		position:absolute;
+		top:30px;
+		right:135px;
+		text-align:justify;
+	}
+
+#p5_tip2
+{
+	width:900px;
+	position:absolute;
+	top:570px;
+	left:10px;
+}
+
+	#p5_tip2_background
+	{
+		width:900px;
+		position:absolute;
+		top:0px;
+		left:0px;
+		z-index:-5;
+	}
+
+	#p5_solution
+	{
+		width:320px;
+		position:absolute;
+		top:70px;
+		right:100px;
+	}
+	
+	#p5_tip2_heading
+	{
+		position:absolute;
+		top:10px;
+		right:180px;
+	}
+	
+	#p5_tip2_text
+	{
+		width:400px;
+		position:absolute;
+		top:5px;
+		left:20px;
+		text-align:justify;
+	}
+
+#p5_tip3
+{
+	position:absolute;
+	top:330px;
+	left:850px;
+}
+
+	#p5_tip3_background
+	{
+		width:490px;
+		position:absolute;
+		z-index:-3;
+	}
+
+	#p5_time
+	{
+		width:230px;
+		position:absolute;
+		top:40px;
+		left:125px;
+	}
+	
+	#p5_tip3_heading
+	{
+		width:450px;
+		position:absolute;
+		top:-10px;
+		left:150px;
+	}
+	
+	#p5_tip3_text
+	{
+		width:440px;
+		position:absolute;
+		top:180px;
+		left:25px;
+		text-align:justify;
+	}
+	
+.owl5
+{
+	position:relative;
+	bottom:-900px;
+}

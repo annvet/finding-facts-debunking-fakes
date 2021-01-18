@@ -1,0 +1,229 @@
+/* Universal CSS Stuff */
+
+@font-face {
+  font-family: Glacial Indifference;
+  src: url("../fonts/glacial-indifference/GlacialIndifference-Regular.otf");
+}
+
+@font-face {
+  font-family: Sailors;
+  src: url("../fonts/sailors/Sailors.ttf");
+}
+
+@font-face {
+  font-family: Sailors Condensed;
+  src: url("../fonts/sailors/Sailors Condensed.ttf");
+}
+
+*
+{
+	box-sizing:border-box;
+}
+
+body
+{
+	background-image:url("../images/background.jpg");
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+}
+
+nav ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+	nav li
+	{
+		float:right;
+		padding:0px 10px 0px 10px;
+	}
+
+	nav li#home, li.sprite
+	{
+		float:left;
+	}
+	
+	#facebook
+	{
+		background: url('../images/sprite.png') no-repeat 0px 0px;
+		width: 20px;
+		height: 20px;
+	}
+	
+	#twitter
+	{
+		background: url('../images/sprite.png') no-repeat -20px 0px;
+		width: 20px;
+		height: 20px;
+	}
+	
+	#reddit
+	{
+		background: url('../images/sprite.png') no-repeat -40px 0px;
+		width: 20px;
+		height: 20px;
+	}
+	
+	a#home:link
+	{
+		text-decoration:none;
+	}
+	
+		a#home:visited
+		{
+			text-decoration:none;
+			color:black;
+		}
+		
+		a#home:hover
+		{
+			text-decoration:none;
+			background-color:#c4a092;
+		}
+		
+		a#home:active
+		{
+			text-decoration:none;
+			background-color:#ac663e;
+			color:white;
+		}
+		
+	a#gen_info:link
+	{
+		text-decoration:none;
+	}
+	
+		a#gen_info:visited
+		{
+			text-decoration:none;
+			color:black;
+		}
+		
+		a#gen_info:hover
+		{
+			text-decoration:none;
+			background-color:#faa94a;
+		}
+		
+		a#gen_info:active
+		{
+			text-decoration:none;
+			background-color:#ff8210;
+			color:white;
+		}
+		
+	a#politics:link
+	{
+		text-decoration:none;
+	}
+	
+		a#politics:visited
+		{
+			text-decoration:none;
+			color:black;
+		}
+		
+		a#politics:hover
+		{
+			text-decoration:none;
+			background-color:#b1d8b7;
+		}
+		
+		a#politics:active
+		{
+			text-decoration:none;
+			background-color:#7cc644;
+			color:white;
+		}
+		
+	a#pandemic:link
+	{
+		text-decoration:none;
+	}
+	
+		a#pandemic:visited
+		{
+			text-decoration:none;
+			color:black;
+		}
+		
+		a#pandemic:hover
+		{
+			text-decoration:none;
+			background-color:#add8e6;
+		}
+		
+		a#pandemic:active
+		{
+			text-decoration:none;
+			background-color:#055c9d;
+			color:white;
+		}
+		
+	a#fact_or_fake:link
+	{
+		text-decoration:none;
+	}
+	
+		a#fact_or_fake:visited
+		{
+			text-decoration:none;
+			color:black;
+		}
+		
+		a#fact_or_fake:hover
+		{
+			text-decoration:none;
+			background-color:#f7cdd0;
+		}
+		
+		a#fact_or_fake:active
+		{
+			text-decoration:none;
+			background-color:#ffaaac;
+			color:white;
+		}
+
+p, td
+{
+	font-family:"Glacial Indifference";
+}
+
+h1, li
+{
+	font-family:"Sailors Condensed";
+}
+
+h2, th, h3
+{
+	font-family:"Sailors";
+}
+
+#Page1Owl
+{
+	float:left;
+}
+
+#Page2Owl
+{
+	float:right;
+}
+
+#Page3Owl
+{
+	float:right;
+}
+
+#Page4Owl
+{
+	float:right;
+}
+
+#Page5Owl
+{
+	float:right;
+}

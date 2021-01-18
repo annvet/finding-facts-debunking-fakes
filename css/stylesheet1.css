@@ -1,0 +1,134 @@
+/* Homepage (Page 1) CSS Stuff */
+#nav1
+{
+	position:absolute;
+	right:0;
+	top:5px;
+}
+
+#p1_title
+{
+	position:absolute;
+	left:10px;
+}
+
+	#p1_title_background
+	{
+		width:640px;
+		position:absolute;
+		top:15px;
+		left:5px;
+		z-index:-1;
+	}
+
+	#p1_title_actual_text
+	{
+		position:absolute;
+		top:-10px;
+		width:640px;
+		left:20px;
+		font-size:30px;
+	}
+
+#p1_paragraph1
+{
+	width:1000px;
+	position:absolute;
+	top:100px;
+	left:20px;
+}
+
+	#p1_paragraph1_background
+	{
+		width:1150px;
+		position:absolute;
+	}
+
+	#p1_paragraph1_actual_text
+	{
+		position:absolute;
+		top:25px;
+		left:100px;
+		text-align:justify;
+	}
+
+#p1_paragraph2
+{
+	width:700px;
+	position:absolute;
+	bottom:335px;
+	right:180px;
+}
+
+	#p1_paragraph2_background
+	{
+		width:800px;
+		position:absolute;
+		top:0;
+	}
+
+	#p1_paragraph2_actual_text
+	{
+		width:750px;
+		position:absolute;
+		top:10px;
+		left:10px;
+		text-align:justify;
+	}
+
+#p1_h2
+{
+	position:absolute;
+	bottom:70px;
+	left:80px;
+	width:200px;
+}
+
+	#p1_h2_background
+	{
+		width:200px;
+		position:absolute;
+		bottom:0;
+	}
+
+	#p1_h2_actual_text
+	{
+		position:absolute;
+		text-align:center;
+		bottom:45px;
+	}
+
+#background1
+{
+	position:absolute;
+	top:70px;
+	left:120px;
+	width:600px;
+	z-index:-5;
+}
+
+.owl1
+{
+	position:relative;
+	bottom:-400px;
+}
+
+#Page2Owl1
+{
+	float:right;
+}
+
+#Page3Owl1
+{
+	float:right;
+}
+
+#Page4Owl1
+{
+	float:right;
+}
+
+#Page5Owl1
+{
+	float:right;
+}

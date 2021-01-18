@@ -1,0 +1,177 @@
+/* Spotlight on the Pandemic! (Page 3) CSS Stuff */
+nav ul
+{
+	background-color:#cce9ff;
+}
+
+#p3_title
+{
+	width:500px;
+	position:absolute;
+	left:100px;
+	top:90px;
+}
+
+	#p3_title_text
+	{
+		position:absolute;
+		width:500px;
+		font-size:30px;
+		top:-25px;
+		left:20px;
+		z-index:1;
+	}
+	
+	#p3_title_background
+	{
+		position:absolute;
+		width:500px;
+	}
+
+#p3_paragraph1
+{
+	position:absolute;
+	top:50px;
+	left:930px;
+}
+	#p3_paragraph1_background
+	{
+		width:320px;
+		position:absolute;
+	}
+
+	#p3_paragraph1_text
+	{
+		position:absolute;
+		width:225px;
+		top:40px;
+		left:45px;
+		text-align:center;
+		z-index:1;
+	}
+	
+#p3_tip1
+{
+	width:800px;
+	position:absolute;
+	left:50px;
+	top:210px;
+}
+
+	#p3_tip1_background
+	{
+		width:800px;
+		position:absolute;
+		top:0px;
+		z-index:-1;
+	}
+
+	#p3_bananas
+	{
+		width:320px;
+		position:absolute;
+		top:50px;
+		left:30px;
+	}
+	
+	#p3_tip1_heading
+	{
+		position:absolute;
+		top:0px;
+		left:80px;
+	}
+	
+	#p3_tip1_text
+	{
+		width:300px;
+		position:absolute;
+		top:30px;
+		right:135px;
+		text-align:justify;
+	}
+
+#p3_tip2
+{
+	width:900px;
+	position:absolute;
+	top:570px;
+	left:10px;
+}
+
+	#p3_tip2_background
+	{
+		width:900px;
+		position:absolute;
+		top:0px;
+		left:0px;
+		z-index:-5;
+	}
+
+	#p3_scientist
+	{
+		width:320px;
+		position:absolute;
+		top:80px;
+		right:120px;
+	}
+	
+	#p3_tip2_heading
+	{
+		position:absolute;
+		top:10px;
+		right:180px;
+	}
+	
+	#p3_tip2_text
+	{
+		width:400px;
+		position:absolute;
+		top:5px;
+		left:20px;
+		text-align:justify;
+	}
+
+#p3_tip3
+{
+	position:absolute;
+	top:330px;
+	left:850px;
+}
+
+	#p3_tip3_background
+	{
+		width:490px;
+		position:absolute;
+		z-index:-3;
+	}
+
+	#p3_facemasks
+	{
+		width:260px;
+		position:absolute;
+		top:40px;
+		left:120px;
+	}
+	
+	#p3_tip3_heading
+	{
+		width:450px;
+		position:absolute;
+		top:-10px;
+		left:150px;
+	}
+	
+	#p3_tip3_text
+	{
+		width:440px;
+		position:absolute;
+		top:180px;
+		left:25px;
+		text-align:justify;
+	}
+	
+.owl3
+{
+	position:relative;
+	bottom:-900px;
+}
